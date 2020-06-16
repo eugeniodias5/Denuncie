@@ -1,0 +1,42 @@
+#bg-login{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.login-input{
+    height: 885px;
+}
+
+.login-info{
+    height: 885px;
+    position: relative;
+}
+
+.login-info::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("./assets/login.jpg") center no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.login-link{
+    text-transform: none;
+    display: block;
+    margin: 0px !important;
+    font-size: 18px;
+}
+
+.login-button{
+    text-decoration: none;
+}
+
+.login-link:hover{
+    text-decoration: none;
+}
+
+button.close{
+    display: inline;
+}

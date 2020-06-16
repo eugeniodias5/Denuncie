@@ -1,0 +1,64 @@
+#bg-denounce-list{
+    position: relative;
+    height: 885px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#bg-denounce-list::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('./assets/denounce-list.jpg') center no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+
+@media (max-width: 992px) {
+    .hide-lg{
+            display: none;
+        }
+}
+
+@media (max-width: 768px){
+    .hide-xs{
+        display: none;
+    }
+}
+
+#button-left{
+    background: url('./assets/arrow-left.svg') center no-repeat;
+    border: none;
+    margin-right: 20px;
+    height: 50px;
+}
+
+#button-right{
+    background: url('./assets/arrow-right.svg') center no-repeat;
+    border: none;
+    margin-left: 20px;
+    height: 50px;
+
+}
+
+table{
+    width: 100%;
+    table-layout: auto;
+}
+
+tbody tr{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table tr td{
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+tbody tr:hover{
+    color: white !important;
+    background: #e63946 !important;
+}

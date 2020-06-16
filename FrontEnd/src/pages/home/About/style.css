@@ -1,0 +1,16 @@
+#about{
+    height: 885px;
+    position: relative;
+    text-align: justify;
+}
+
+#about::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('./assets/about2.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}

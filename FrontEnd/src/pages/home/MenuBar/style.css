@@ -1,0 +1,28 @@
+#container{
+    height: 226px;
+}
+
+#navbar{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 0 40px;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background: url('./assets/menu-icon.svg') no-repeat center !important;
+}
+
+.menu-link{
+    color: #f8f9fa !important;
+}
+
+.menu-link.active, .menu-link:hover{
+    background: #f8f9fa !important;
+    color: #e63946 !important;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+img{
+    transform: scale(1.3);
+}
